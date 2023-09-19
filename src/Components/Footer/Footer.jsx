@@ -3,6 +3,7 @@ import './footer.css'
 import video2 from '../../Assest/video2.mp4'
 import { FiSend } from 'react-icons/fi'
 import { AiFillFire } from 'react-icons/ai';
+import { FiChevronRight } from 'react-icons/fi';
 
 
 
@@ -23,19 +24,19 @@ const Footer = () => {
               <h2>Travel with us</h2>
 
             </div>
-            
-            
+
+
 
           </div>
           <div>
-          <div className='inputDiv flex'>
+            <div className='inputDiv flex'>
               <input type='text' placeholder='Enter Email Address' />
               <button className='btn flex' type='submit'>
                 SEND <FiSend className='icon' />
               </button>
 
             </div>
-            </div>
+          </div>
 
           <div className='footerCard flex'>
             <div className='footerIntro flex'>
@@ -44,12 +45,48 @@ const Footer = () => {
                   <AiFillFire className='icon' /> Travel.
                 </a>
               </div>
-
+              <div>
+              
+              </div>
+              
 
             </div>
 
           </div>
+          <div className="footageParagraph">
+              Are you traveling to Sri Lanka in 2023? Check out our Sri Lanka guide to find the best places to visit, 
+              tourist attractions, popular destinations, the best places to eat and drink, and where to stay.
+              </div>
 
+        </div>
+        <div className="footerLinks gride">
+          <div className='linkGroup'>
+            <span className='groupTitle'>
+              OUR AGANCY
+
+            </span>
+            <li className='footerList flex'>
+              <FiChevronRight className='icon'/>
+              Services
+            </li>
+            <li className='footerList flex'>
+              <FiChevronRight className='icon'/>
+              Insurance
+            </li>
+            <li className='footerList flex'>
+              <FiChevronRight className='icon'/>
+              Agency
+            </li>
+            <li className='footerList flex'>
+              <FiChevronRight className='icon'/>
+              Tourism
+            </li>
+            <li className='footerList flex'>
+              <FiChevronRight className='icon'/>
+              Payment
+            </li>
+
+          </div>
         </div>
 
       </div>

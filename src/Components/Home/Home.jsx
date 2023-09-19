@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './home.css'
 import video from '../../Assest/video.mp4'
 import{GrLocation} from 'react-icons/gr'
@@ -8,6 +8,9 @@ import{BsInstagram} from 'react-icons/bs'
 import{FaTripadvisor} from 'react-icons/fa'
 import{AiOutlineUnorderedList} from 'react-icons/ai'
 import{TbApps} from 'react-icons/tb'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Home = () => {
   return (
