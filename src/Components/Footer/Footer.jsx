@@ -1,7 +1,10 @@
 import React from 'react'
 import './footer.css'
 import video2 from '../../Assest/video2.mp4'
-import {FiSend} from 'react-icons/fi'
+import { FiSend } from 'react-icons/fi'
+import { AiFillFire } from 'react-icons/ai';
+
+
 
 const Footer = () => {
   return (
@@ -9,27 +12,45 @@ const Footer = () => {
       <div className='videoDiv'>
 
         <video src={video2} loop autoPlay muted type="video/mp4">
-          <div className='secContent container'>
-            <div className='contactDiv flex'>
-              <div className='text' >
-                <small>KEEP IN TOUCH</small>
-              
-                <h2>Travel with us</h2>
 
-              </div>
-              <div className='inputDiv flex'>
-                <input type='text' placeholder='Enter Email Address'/>
-                <button className='btn flex' type='submit'>
-                  SEND <FiSend className='icon'/>
-                </button>
 
+        </video>
+        <div className='secContent container'>
+          <div className='contactDiv flex'>
+            <div className='text' >
+              <small>KEEP IN TOUCH</small>
+
+              <h2>Travel with us</h2>
+
+            </div>
+            
+            
+
+          </div>
+          <div>
+          <div className='inputDiv flex'>
+              <input type='text' placeholder='Enter Email Address' />
+              <button className='btn flex' type='submit'>
+                SEND <FiSend className='icon' />
+              </button>
+
+            </div>
+            </div>
+
+          <div className='footerCard flex'>
+            <div className='footerIntro flex'>
+              <div className='logoDive'>
+                <a href='#' className='logo flex'>
+                  <AiFillFire className='icon' /> Travel.
+                </a>
               </div>
+
 
             </div>
 
           </div>
 
-        </video>
+        </div>
 
       </div>
 

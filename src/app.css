@@ -497,6 +497,7 @@ span {
             video {
                 height: 100%;
                 object-fit: cover;
+               
             }
 
             &::after {
@@ -531,24 +532,25 @@ span {
             gap: 1rem;
 
             .text {
-                small{
+                small {
                     font-size: 13px;
                     font-weight: 400;
                     color: var(--whiteColor);
                 }
 
-                h2{
+                h2 {
                     color: var(--whiteColor);
                     font-size: 1.8rem;
                 }
 
             }
-            .inputDiv{
+
+            .inputDiv {
                 width: 100%;
                 gap: 1rem;
                 flex-direction: column;
 
-                input{
+                input {
                     width: 100%;
                     padding: .5rem .6rem;
                     border-radius: 3rem;
@@ -557,22 +559,23 @@ span {
                     background: transparent;
                     color: var(--whiteColor);
 
-                    &::placeholder{
+                    &::placeholder {
                         color: var(--whiteColor);
                         opacity: .5;
 
                     }
 
                 }
-                .btn{
+
+                .btn {
                     width: 100%;
                     justify-content: center;
                     color: var(--whiteColor);
                     font-weight: 500;
                     gap: .5rem;
 
-                    .icon{
-                        font-size: 18px; 
+                    .icon {
+                        font-size: 18px;
                     }
 
                 }
