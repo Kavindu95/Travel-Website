@@ -13,6 +13,13 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const Home = () => {
+  //react hooks
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
+
+
+
   return (
     <section className='home'>
       <div className="overlay"></div>
