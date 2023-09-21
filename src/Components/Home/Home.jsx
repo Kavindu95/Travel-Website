@@ -28,15 +28,15 @@ const Home = () => {
 
     <div className="homeContent container">
       <div className="textDiv">
-        <span className="smallText">
+        <span data-aos="fade-up" className="smallText">
           Our Packages
         </span>
-       <h1 className="homeTitle">
+       <h1 data-aos="fade-up" className="homeTitle">
         Search Your Holidays
        </h1>
       </div>
 
-      <div className="cardDiv grid">
+      <div data-aos="fade-up" className="cardDiv grid">
             <div className="destinationInput">
               <label htmlFor="city">Search your destination</label>
               <div className="input flex">
@@ -65,7 +65,7 @@ const Home = () => {
             </div>
       </div>
 
-      <div className="homeFooterIcons flex">
+      <div data-aos="fade-up" className="homeFooterIcons flex">
         <div className="rightIcons">
         <FiFacebook className="icon"/>
         <BsInstagram className="icon"/>
