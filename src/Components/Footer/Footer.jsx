@@ -21,14 +21,11 @@ useEffect(()=>{
 
 
   return (
+    
     <section className='footer'>
       <div className='videoDiv'>
-
-        <video src={video2} loop autoPlay muted type="video/mp4">
-
-
-        </video>
-        <div className='secContent container'>
+        
+      <div className='secContent container'>
           <div className='contactDiv flex'>
             <div data-aos="fade-up" className='text' >
               <small>KEEP IN TOUCH</small>
@@ -55,7 +52,7 @@ useEffect(()=>{
           <div className='footerCard flex'>
             <div className='footerIntro flex'>
               <div className='logoDive'>
-                <a href='#' className='logo flex'>
+                <a href='#' data-aos="fade-up" className='logo flex'>
                   <AiFillFire className='icon' /> Travel.
                 </a>
               </div>
@@ -67,7 +64,7 @@ useEffect(()=>{
             </div>
 
           </div>
-          <div className="footageParagraph">
+          <div data-aos="fade-up" className="footageParagraph">
               Are you traveling to Sri Lanka in 2023? Check out our Sri Lanka guide to find the best places to visit, 
               tourist attractions, popular destinations, the best places to eat and drink, and where to stay.
               </div>
@@ -102,6 +99,13 @@ useEffect(()=>{
 
           </div>
         </div>
+
+        <video src={video2} loop autoPlay muted type="video/mp4">
+        
+
+
+        </video>
+
 
       </div>
 
